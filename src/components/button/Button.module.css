@@ -1,0 +1,32 @@
+button {
+  text-decoration: none;
+  background-color: transparent;
+  height: 50px;
+  min-width: 160px;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: 0.15s ease-in-out;
+}
+
+.blue:hover {
+  box-shadow: 0 0 20px #0a3de6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.green:hover {
+  box-shadow: 0 0 20px #36e60a, 0 0 20px rgba(10, 175, 230, 0);
+  color: #daf6ff;
+  text-shadow: 0 0 20px #36e60a, 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.red:hover {
+  box-shadow: 0 0 20px #e60a0a, 0 0 20px rgba(10, 175, 230, 0);
+  color: #daf6ff;
+  text-shadow: 0 0 20px #e60a0a, 0 0 20px rgba(10, 175, 230, 0);
+}
